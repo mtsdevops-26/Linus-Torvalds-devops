@@ -1,14 +1,14 @@
 <p align="center"><img src="images/devops_exercises.png"/></p>
 
-:information_source: &nbsp;This repo contains questions and exercises on various technical topics, sometimes related to DevOps and SRE
+:information_source: &nbsp;Este repositório contém perguntas e exercícios sobre vários tópicos técnicos, às vezes relacionados a DevOps e SRE
 
-:bar_chart: &nbsp;There are currently **2610** exercises and questions
+:bar_chart: &nbsp;Existem atualmente 2610 exercícios e perguntas.
 
-:warning: &nbsp;You can use these for preparing for an interview but most of the questions and exercises don't represent an actual interview. Please read [FAQ page](faq.md) for more details
+:warning: &nbsp;Você pode usá-los para se preparar para uma entrevista, mas a maioria das perguntas e exercícios não representam uma entrevista real. Por favor, leia a [ página de perguntas frequentes](faq.md) para mais detalhes.
 
-:stop_sign: &nbsp;If you are interested in pursuing a career as DevOps engineer, learning some of the concepts mentioned here would be useful, but you should know it's not about learning all the topics and technologies mentioned in this repository
+:stop_sign: &nbsp;Se você estiver interessado em seguir a carreira de engenheiro de DevOps, aprender alguns dos conceitos mencionados aqui seria útil, mas você deve saber que não se trata de aprender todos os tópicos e tecnologias mencionados neste repositório.
 
-:pencil: &nbsp;You can add more exercises by submitting pull requests :) Read about contribution guidelines [here](CONTRIBUTING.md)
+:pencil: &nbsp;Você pode adicionar mais exercícios enviando solicitações de pull :) Leia sobre as diretrizes de contribuição [aqui](CONTRIBUTING.md)
 
 ****
 
@@ -94,10 +94,10 @@
 <!-- prettier-ignore-end -->
 <!-- ALL-TOPICS-LIST:END -->
 
-## Network
+## REDES
 
 <details>
-<summary>In general, what do you need in order to communicate?</summary><br><b>
+<summary>In Em geral, o que você precisa para se comunicar?</summary><br><b>
 
   - A common language (for the two ends to understand)
   - A way to address who do you want to communicate with
@@ -108,32 +108,32 @@
 <details>
 <summary>What is TCP/IP?</summary><br><b>
 
-A set of protocols that define how two or more devices can communicate with each other.
+Um conjunto de protocolos que definem como dois ou mais dispositivos podem se comunicar entre si.
 
-To learn more about TCP/IP, read [here](http://www.penguintutor.com/linux/basic-network-reference)
-
-</b></details>
-
-<details>
-<summary>What is Ethernet?</summary><br><b>
-
-Ethernet simply refers to the most common type of Local Area Network (LAN) used today. A LAN—in contrast to a WAN (Wide Area Network), which spans a larger geographical area—is a connected network of computers in a small area, like your office, college campus, or even home.
+Para saber mais sobre TCP/IP, leia [Aqui](http://www.penguintutor.com/linux/basic-network-reference)
 
 </b></details>
 
 <details>
-<summary>What is a MAC address? What is it used for?</summary><br><b>
+<summary>Oque é Ethernet?</summary><br><b>
 
-A MAC address is a unique identification number or code used to identify individual devices on the network.
-
-Packets that are sent on the ethernet are always coming from a MAC address and sent to a MAC address. If a network adapter is receiving a packet, it is comparing the packet’s destination MAC address to the adapter’s own MAC address.
+Ethernet simplesmente se refere ao tipo mais comum de rede local (LAN) usado hoje. Uma LAN – em contraste com uma WAN (Wide Area Network), que abrange uma área geográfica maior – é uma rede conectada de computadores em uma área pequena, como seu escritório, campus universitário ou até mesmo em casa.
 
 </b></details>
 
 <details>
-<summary>When is this MAC address used?: ff:ff:ff:ff:ff:ff</summary><br><b>
+<summary>O que é um endereço MAC? Para que isso é usado?</summary><br><b>
 
-When a device sends a packet to the broadcast MAC address (FF:FF:FF:FF:FF:FF​), it is delivered to all stations on the local network. Ethernet broadcasts are used to resolve IP addresses to MAC addresses (by ARP) at the datalink layer .
+Um endereço MAC é um número ou código de identificação exclusivo usado para identificar dispositivos individuais na rede.
+
+Os pacotes enviados na ethernet sempre vêm de um endereço MAC e são enviados para um endereço MAC. Se um adaptador de rede estiver recebendo um pacote, ele está comparando o endereço MAC de destino do pacote com o próprio endereço MAC do adaptador.
+
+</b></details>
+
+<details>
+<summary>Quando este endereço MAC é usado?: ff:ff:ff:ff:ff:ff</summary><br><b>
+
+Quando um dispositivo envia um pacote para o endereço MAC de broadcast (FF:FF:FF:FF:FF:FF​), ele é entregue a todas as estações da rede local. Os broadcasts Ethernet são usados ​​para resolver endereços IP para endereços MAC (por ARP) na camada de enlace de dados.
 </b></details>
 
 <details>
