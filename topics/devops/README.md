@@ -1,41 +1,41 @@
-# DevOps
+#DevOps
 
-## Questions
+## Perguntas
 
-### General 
+### Em geral
 
-<details>
-<summary>What is DevOps?</summary><br><b>
+<detalhes>
+<summary>O que é DevOps?</summary><br><b>
 
-The definition of DevOps from selected companies:
+A definição de DevOps de empresas selecionadas:
 
-**Amazon**:
+**Amazonas**:
 
-"DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity: evolving and improving products at a faster pace than organizations using traditional software development and infrastructure management processes. This speed enables organizations to better serve their customers and compete more effectively in the market."
+"DevOps é a combinação de filosofias culturais, práticas e ferramentas que aumentam a capacidade de uma organização de fornecer aplicativos e serviços em alta velocidade: evoluindo e melhorando produtos em um ritmo mais rápido do que as organizações que usam processos tradicionais de desenvolvimento de software e gerenciamento de infraestrutura. Essa velocidade permite que as organizações para melhor atender seus clientes e competir de forma mais eficaz no mercado."
 
 **Microsoft**:
 
-"DevOps is the union of people, process, and products to enable continuous delivery of value to our end users. The contraction of “Dev” and “Ops” refers to replacing siloed Development and Operations to create multidisciplinary teams that now work together with shared and efficient practices and tools. Essential DevOps practices include agile planning, continuous integration, continuous delivery, and monitoring of applications."
+"DevOps é a união de pessoas, processos e produtos para permitir a entrega contínua de valor aos nossos usuários finais. A contração de "Dev" e "Ops" refere-se à substituição de Desenvolvimento e Operações em silos para criar equipes multidisciplinares que agora trabalham em conjunto com e práticas e ferramentas eficientes. As práticas essenciais de DevOps incluem planejamento ágil, integração contínua, entrega contínua e monitoramento de aplicativos."
 
-**Red Hat**:
+**Chapéu vermelho**:
 
-"DevOps describes approaches to speeding up the processes by which an idea (like a new software feature, a request for enhancement, or a bug fix) goes from development to deployment in a production environment where it can provide value to the user. These approaches require that development teams and operations teams communicate frequently and approach their work with empathy for their teammates. Scalability and flexible provisioning are also necessary. With DevOps, those that need power the most, get it—through self service and automation. Developers, usually coding in a standard development environment, work closely with IT operations to speed software builds, tests, and releases—without sacrificing reliability."
+"DevOps descreve abordagens para acelerar os processos pelos quais uma ideia (como um novo recurso de software, uma solicitação de aprimoramento ou uma correção de bug) passa do desenvolvimento para a implantação em um ambiente de produção onde pode agregar valor ao usuário. Essas abordagens exigem que as equipes de desenvolvimento e operações se comuniquem com frequência e abordem seu trabalho com empatia pelos colegas de equipe. Escalabilidade e provisionamento flexível também são necessários. Com o DevOps, aqueles que mais precisam de energia, obtêm-no por meio de autoatendimento e automação. Desenvolvedores, geralmente codificando em um ambiente de desenvolvimento padrão, trabalhe em estreita colaboração com as operações de TI para acelerar compilações, testes e lançamentos de software, sem sacrificar a confiabilidade."
 
 **Google**:
 
-"...The organizational and cultural movement that aims to increase software delivery velocity, improve service reliability, and build shared ownership among software stakeholders"
-</b></details>
+"...O movimento organizacional e cultural que visa aumentar a velocidade de entrega de software, melhorar a confiabilidade do serviço e construir propriedade compartilhada entre as partes interessadas do software"
+</b></detalhes>
 
-<details>
-<summary>What are the benefits of DevOps? What can it help us to achieve?</summary><br><b>
+<detalhes>
+<resumo>Quais são os benefícios do DevOps? O que isso pode nos ajudar a alcançar?</summary><br><b>
 
-  * Collaboration
-  * Improved delivery
-  * Security
-  * Speed
-  * Scale
-  * Reliability
-</b></details>
+  * Colaboração
+  * Entrega melhorada
+  * Segurança
+  * Velocidade
+  * Escala
+  * Confiabilidade
+</b></detalhes>
 
 <details>
 <summary>What are the anti-patterns of DevOps?</summary><br><b>
