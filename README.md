@@ -1,4 +1,4 @@
-<p align="center"><img src="images/devops_exercises.png"/></p>
+<p align="center"><img src="images/devops.png"/></p>
 
 :information_source: &nbsp;Este repositório contém perguntas e exercícios sobre vários tópicos técnicos, às vezes relacionados a DevOps e SRE
 
