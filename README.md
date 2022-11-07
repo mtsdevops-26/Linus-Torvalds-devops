@@ -137,218 +137,211 @@ Quando um dispositivo envia um pacote para o endereço MAC de broadcast (FF:FF:F
 </b></details>
 
 <details>
-<summary>What is an IP address?</summary><br><b>
+<summary>O que é um endereço IP?</summary><br><b>
 
-An Internet Protocol address (IP address) is a numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication.An IP address serves two main functions: host or network interface identification and location addressing.
+Um endereço de Protocolo de Internet (endereço IP) é um rótulo numérico atribuído a cada dispositivo conectado a uma rede de computadores que usa o Protocolo de Internet para comunicação. Um endereço de IP tem duas funções principais: identificação de interface de rede ou host e endereçamento de local.
 </b></details>
 
 <details>
-<summary>Explain subnet mask and given an example</summary><br><b>
+<summary>Explique a máscara de sub-rede e dê um exemplo</summary><br><b>
 
-A Subnet mask is a 32-bit number that masks an IP address, and divides the IP address into network address and host address. Subnet Mask is made by setting network bits to all "1"s and setting host bits to all "0"s. Within a given network, out of the total usable host addresses, two are always reserved for specific purposes and cannot be allocated to any host. These are the first address, which is reserved as a network address (a.k.a network ID) and the last address used for network broadcast.
+Uma máscara de sub-rede é um número de 32 bits que mascara um endereço IP e divide o endereço IP em endereço de rede e endereço de host. A máscara de sub-rede é feita definindo os bits de rede para todos os "1"s e configurando os bits do host para todos os "0"s. Dentro de uma determinada rede, do total de endereços de host utilizáveis, dois são sempre reservados para fins específicos e não podem ser alocados a nenhum host. Estes são o primeiro endereço, que é reservado como um endereço de rede (também conhecido como ID de rede) e o último endereço usado para transmissão de rede.
 
 [Example](https://github.com/philemonnwanne/o0o0o/tree/main/exes/exe-09)
 
 </b></details>
 
 <details>
-<summary>What is a private IP address? In which scenarios/system designs, one should use it?</summary><br><b>
-Private IP addresses are assigned to the hosts in the same network to communicate among one another. As the name "private" suggests, the devices having the private IP addresses assigned can't be reached by the devices from any external network. For example, if I am living in a hostel and I want my hostelmates to join the game server I have hosted, I will ask them to join via my server's private IP address, since the network is local to the hostel.
+<summary>O que é um endereço IP privado? Em quais cenários/projetos de sistema, deve-se usá-lo?</summary><br><b>
+ndereços IP privados são atribuídos aos hosts na mesma rede para comunicação entre si. Como o nome "privado" sugere, os dispositivos com os endereços IP privados atribuídos não podem ser alcançados pelos dispositivos de nenhuma rede externa. Por exemplo, se eu estiver morando em um albergue e quiser que meus companheiros de albergue entrem no servidor de jogo que eu hospedei, pedirei que eles entrem através do endereço IP privado do meu servidor, já que a rede é local para o albergue.
 </b></details>
 
 <details>
-<summary>What is a public IP address? In which scenarios/system designs, one should use it?</summary><br><b>
-A public IP address is the public facing IP address. In the event that you was hosting a game server that you want your friends to join, you will give your friends your public IP address to allow their computers to identify and locate your network and server in order for the connection to take place. One time that you would not need to use a public facing IP address is in the event that you was playing with friends who was connected to the same network as you, in that case, you would use a private ip address. In order for someone to be able to connect to your server that is located internally, you will have to setup a port forward to tell your router to allow traffic from the public domain into your network and vice versa.
+<summary>O que é um endereço IP público? Em quais cenários/projetos de sistema, deve-se usá-lo?</summary><br><b>
+Um endereço IP público é o endereço IP voltado para o público. No caso de você estar hospedando um servidor de jogo no qual deseja que seus amigos participem, você fornecerá a seus amigos seu endereço IP público para permitir que seus computadores identifiquem e localizem sua rede e servidor para que a conexão ocorra. Uma vez que você não precisaria usar um endereço IP público é no caso de estar jogando com amigos que estavam conectados à mesma rede que você, nesse caso, você usaria um endereço IP privado. Para que alguém possa se conectar ao seu servidor que está localizado internamente, você terá que configurar um encaminhamento de porta para informar ao seu roteador para permitir o tráfego do domínio público em sua rede e vice-versa.
 </b></details>
 
 <details>
-<summary>Explain the OSI model. What layers there are? What each layer is responsible for?</summary><br><b>
+<summary>Explique o modelo OSI. Que camadas existem? Pelo que cada camada é responsável?</summary><br><b>
 
-- Application: user end (HTTP is here)
-- Presentation: establishes context between application-layer entities (Encryption is here)
-- Session: establishes, manages and terminates the connections
-- Transport: transfers variable-length data sequences from a source to a destination host (TCP & UDP are here)
-- Network: transfers datagrams from one network to another (IP is here)
-- Data link: provides a link between two directly connected nodes (MAC is here)
-- Physical: the electrical and physical spec the data connection (Bits are here)
+- Aplicação: usuário final (HTTP está aqui)
+- Apresentação: estabelece o contexto entre as entidades da camada de aplicação (A criptografia está aqui)
+- Sessão: estabelece, gerencia e encerra as conexões
+- Transporte: transfere sequências de dados de comprimento variável de uma origem para um host de destino (TCP e UDP estão aqui)
+- Rede: transfere datagramas de uma rede para outra (IP é aqui)
+- Link de dados: fornece um link entre dois nós conectados diretamente (o MAC está aqui)
+- Físico: a especificação elétrica e física da conexão de dados (os bits estão aqui)
 
-You can read more about the OSI model in [penguintutor.com](http://www.penguintutor.com/linux/basic-network-reference)
+Você pode ler mais sobre o modelo OSI em [penguintutor.com](http://www.penguintutor.com/linux/basic-network-reference)
 </b></details>
 
 <details>
-<summary>For each of the following determines to which OSI layer it belongs:
+<summary>Para cada um dos seguintes determina a qual camada OSI ele pertence:
 
-  * Error correction
-  * Packets routing
-  * Cables and electrical signals
-  * MAC address
-  * IP address
-  * Terminate connections
-  * 3 way handshake</summary><br><b>
-  * Error correction - Data link
-  * Packets routing - Network
-  * Cables and electrical signals - Physical
-  * MAC address - Data link
-  * IP address - Network
-  * Terminate connections - Session
-  * 3 way handshake - Transport
+* Correção de erros
+* Roteamento de pacotes
+* Cabos e sinais elétricos
+* Endereço MAC
+* endereço de IP
+* Encerrar conexões
+* aperto de mão de 3 vias
+	
 </b></details>
 
 <details>
-<summary>What delivery schemes are you familiar with?</summary><br><b>
+<summary>Quais esquemas de entrega você conhece?</summary><br><b>
 
-Unitcast: One to one communication where there is one sender and one receiver.
+Unitcast: comunicação um para um onde há um remetente e um destinatário.
 
-Broadcast: Sending a message to everyone in the network. The address ff:ff:ff:ff:ff:ff is used for broadcasting.
-           Two common protocols which use broadcast are ARP and DHCP.
+Broadcast: Enviando uma mensagem para todos na rede. O endereço ff:ff:ff:ff:ff:ff é usado para transmissão. Dois protocolos comuns que usam broadcast são ARP e DHCP.
+
+Multicast: Enviando uma mensagem para um grupo de assinantes. Pode ser um-para-muitos ou muitos-para-muitos.
 
 Multicast: Sending a message to a group of subscribers. It can be one-to-many or many-to-many.
 </b></details>
 
 <details>
-<summary>What is CSMA/CD? Is it used in modern ethernet networks?</summary><br><b>
+<summary>O que é CSMA/CD? É usado em redes ethernet modernas?</summary><br><b>
+CSMA/CD significa Carrier Sense Multiple Access / Collision Detection. Seu foco principal é gerenciar o acesso ao meio/barramento compartilhado, onde apenas um host pode transmitir em um determinado ponto do tempo.
 
-CSMA/CD stands for Carrier Sense Multiple Access / Collision Detection.
-Its primarily focus it to manage access to shared medium/bus where only one host can transmit at a given point of time.
+Algoritmo CSMA/CD:
 
-CSMA/CD algorithm:
-
-1. Before sending a frame, it checks whether another host already transmitting a frame.
-2. If no one transmitting, it starts transmitting the frame.
-3. If two hosts transmitted at the same time, we have a collision.
-4. Both hosts stop sending the frame and they send to everyone a 'jam signal' notifying everyone that a collision occurred
-5. They are waiting for a random time before sending again
-6. Once each host waited for a random time, they try to send the frame again and so the
+1. Antes de enviar um quadro, ele verifica se outro host já está transmitindo um quadro.
+2. Se ninguém estiver transmitindo, ele começa a transmitir o quadro.
+3. Se dois hosts transmitirem ao mesmo tempo, teremos uma colisão.
+5. Ambos os hosts param de enviar o quadro e enviam a todos um 'sinal de congestionamento' notificando a todos que ocorreu uma colisão
+6. Eles estão esperando por um tempo aleatório antes de enviar novamente
+7. Uma vez que cada host esperou um tempo aleatório, eles tentam enviar o quadro novamente e assim o
 </b></details>
 
 <details>
-<summary>Describe the following network devices and the difference between them:
+<summary>Descreva os seguintes dispositivos de rede e a diferença entre eles:
 
-  * router
-  * switch
+  * roteador
+  * trocar
   * hub</summary><br><b>
 
 </b></details>
 
 <details>
-<summary>What is a "Collision Domain"?</summary><br><b>
+<summary>O que é um "domínio de colisão"?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is a "Broadcast Domain"?</summary><br><b>
+<summary>O que é um "domínio de transmissão"?</summary><br><b>
 </b></details>
 
 <details>
-<summary>three computers connected to a switch. How many collision domains are there? How many broadcast domains?</summary><br><b>
+<summary>três computadores conectados a um switch. Quantos domínios de colisão existem? Quantos domínios de broadcast?</summary><br><b>
 
-Three collision domains and one broadcast domain
+Três domínios de colisão e um domínio de broadcast
 </b></details>
 
 <details>
-<summary>How does a router works?</summary><br><b>
+<summary>Como funciona um roteador?</summary><br><b>
 
-A router is a physical or virtual appliance that passes information between two or more packet-switched computer networks. A router inspects a given data packet's destination Internet Protocol address (IP address), calculates the best way for it to reach its destination and then forwards it accordingly.
-
-</b></details>
-
-<details>
-<summary>What is NAT?</summary><br><b>
-
- Network Address Translation (NAT) is a process in which one or more local IP address is translated into one or more Global IP address and vice versa in order to provide Internet access to the local hosts.
+Um roteador é um dispositivo físico ou virtual que passa informações entre duas ou mais redes de computadores com comutação de pacotes. Um roteador inspeciona o endereço de protocolo da Internet (endereço IP) de destino de um determinado pacote de dados, calcula a melhor maneira de chegar ao destino e o encaminha de acordo.
 
 </b></details>
 
 <details>
-<summary>What is a proxy? How does it works? What do we need it for?</summary><br><b>
+<summary>O que é NAT?</summary><br><b>
 
-A proxy server acts as a gateway between you and the internet. It’s an intermediary server separating end users from the websites they browse.
+ Network Address Translation (NAT) é um processo no qual um ou mais endereços IP locais são traduzidos em um ou mais endereços IP globais e vice-versa para fornecer acesso à Internet aos hosts locais.
 
-If you’re using a proxy server, internet traffic flows through the proxy server on its way to the address you requested. The request then comes back through that same proxy server (there are exceptions to this rule), and then the proxy server forwards the data received from the website to you.
-
-Proxy servers provide varying levels of functionality, security, and privacy depending on your use case, needs, or company policy.
 </b></details>
 
 <details>
-<summary>What is TCP? How does it works? What is the 3 way handshake?</summary><br><b>
+<summary>O que é um procurador? Como isso funciona? Para que precisamos disso?</summary><br><b>
 
-TCP 3-way handshake or three-way handshake is a process which is used in a TCP/IP network to make a connection between server and client.
+Um servidor proxy atua como um gateway entre você e a Internet. É um servidor intermediário que separa os usuários finais dos sites que eles navegam.
 
-A three-way handshake is primarily used to create a TCP socket connection. It works when:
+Se você estiver usando um servidor proxy, o tráfego da Internet fluirá pelo servidor proxy a caminho do endereço solicitado. A solicitação retorna por meio desse mesmo servidor proxy (há exceções a essa regra) e, em seguida, o servidor proxy encaminha os dados recebidos do site para você.
 
-- A client node sends a SYN data packet over an IP network to a server on the same or an external network. The objective of this packet is to ask/infer if the server is open for new connections.
-- The target server must have open ports that can accept and initiate new connections. When the server receives the SYN packet from the client node, it responds and returns a confirmation receipt – the ACK packet or SYN/ACK packet.
-- The client node receives the SYN/ACK from the server and responds with an ACK packet.
+Os servidores proxy fornecem níveis variados de funcionalidade, segurança e privacidade, dependendo do seu caso de uso, necessidades ou política da empresa.
 </b></details>
 
 <details>
-<summary>What is round-trip delay or round-trip time?</summary><br><b>
+<summary>O que é TCP? Como isso funciona? O que é o aperto de mão de 3 vias?</summary><br><b>
 
-From [wikipedia](https://en.wikipedia.org/wiki/Round-trip_delay): "the length of time it takes for a signal to be sent plus the length of time it takes for an acknowledgement of that signal to be received"
+O handshake de três vias TCP ou handshake de três vias é um processo usado em uma rede TCP/IP para fazer uma conexão entre o servidor e o cliente.
 
-Bonus question: what is the RTT of LAN?
+Um handshake de três vias é usado principalmente para criar uma conexão de soquete TCP. Funciona quando:
+
+- Um nó cliente envia um pacote de dados SYN por uma rede IP para um servidor na mesma rede ou em uma rede externa. O objetivo deste pacote é perguntar/inferir se o servidor está aberto para novas conexões.
+- O servidor de destino deve ter portas abertas que possam aceitar e iniciar novas conexões. Quando o servidor recebe o pacote SYN do nó cliente, ele responde e retorna um recibo de confirmação – o pacote ACK ou pacote SYN/ACK.
+- O nó cliente recebe o SYN/ACK do servidor e responde com um pacote ACK.
 </b></details>
 
 <details>
-<summary>How does SSL handshake work?</summary><br><b>
+<summary>O que é atraso de ida e volta ou tempo de ida e volta?</summary><br><b>
+
+[wikipedia](https://en.wikipedia.org/wiki/Round-trip_delay):"o tempo que leva para um sinal ser enviado mais o tempo que leva para um reconhecimento desse sinal ser recebido"
+
+Pergunta bônus: qual é o RTT da LAN?
 </b></details>
 
 <details>
-<summary>What is the difference between TCP and UDP?</summary><br><b>
-
-TCP establishes a connection between the client and the server to guarantee the order of the packages, on the other hand, UDP does not establish a connection between client and server and doesn't handle package order. This makes UDP more lightweight than TCP and a perfect candidate for services like streaming.
-
-[Penguintutor.com](http://www.penguintutor.com/linux/basic-network-reference) provides a good explanation.
+<summary>Como funciona o handshake SSL?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What TCP/IP protocols are you familiar with?</summary><br><b>
+<summary>Qual é a diferença entre TCP e UDP?</summary><br><b>
+
+O TCP estabelece uma conexão entre o cliente e o servidor para garantir a ordem dos pacotes, por outro lado, o UDP não estabelece uma conexão entre o cliente e o servidor e não trata a ordem dos pacotes. Isso torna o UDP mais leve que o TCP e um candidato perfeito para serviços como streaming.
+
+[Penguintutor.com](http://www.penguintutor.com/linux/basic-network-reference)  fornece uma boa explicação.
 </b></details>
 
 <details>
-<summary>Explain "default gateway"</summary><br><b>
-
-A default gateway serves as an access point or IP router that a networked computer uses to send information to a computer in another network or the internet.
+<summary>Quais protocolos TCP/IP você conhece?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is ARP? How does it works?</summary><br><b>
+<summary>EExplique "gateway padrão"/summary><br><b>
 
-ARP stands for Address Resolution Protocol. When you try to ping an IP address on your local network, say 192.168.1.1, your system has to turn the IP address 192.168.1.1 into a MAC address. This involves using ARP to resolve the address, hence its name.
-
-Systems keep an ARP look-up table where they store information about what IP addresses are associated with what MAC addresses. When trying to send a packet to an IP address, the system will first consult this table to see if it already knows the MAC address. If there is a value cached, ARP is not used.
+Um gateway padrão serve como um ponto de acesso ou roteador IP que um computador em rede usa para enviar informações para um computador em outra rede ou na Internet.
 </b></details>
 
 <details>
-<summary>What is TTL? What does it helps to prevent?</summary><br><b>
+<summary>O que é ARP? Como isso funciona?</summary><br><b>
+
+ARP significa Protocolo de Resolução de Endereço. Quando você tenta fazer ping em um endereço IP em sua rede local, digamos 192.168.1.1, seu sistema precisa transformar o endereço IP 192.168.1.1 em um endereço MAC. Isso envolve o uso de ARP para resolver o endereço, daí seu nome.
+
+Os sistemas mantêm uma tabela de consulta ARP onde armazenam informações sobre quais endereços IP estão associados a quais endereços MAC. Ao tentar enviar um pacote para um endereço IP, o sistema primeiro consultará esta tabela para verificar se já conhece o endereço MAC. Se houver um valor armazenado em cache, o ARP não será usado.
 </b></details>
 
 <details>
-<summary>What is DHCP? How does it works?</summary><br><b>
-
-It stands for Dynamic Host Configuration Protocol, and allocates IP addresses, subnet masks and gateways to hosts. This is how it works:
-
-* A host upon entering a network, broadcasts a message in search of a DHCP server (DHCP DISCOVER)
-* An offer message is sent back by the DHCP server as a packet containing lease time, subnet mask, IP addresses, etc (DHCP OFFER)
-* Depending on which offer accepted, the client sends back a reply broadcast letting all DHCP servers know (DHCP REQUEST)
-* Server sends an acknowledgment (DHCP ACK)
-
-Read more [here](https://linuxjourney.com/lesson/dhcp-overview)
+<summary>O que é TTL? O que ajuda a prevenir?</summary><br><b>
 </b></details>
 
 <details>
-<summary>Can you have two DHCP servers in the same network? How it works?</summary><br><b>
+<summary>O que é DHCP? Como isso funciona?</summary><br><b>
+
+Ele significa Dynamic Host Configuration Protocol e aloca endereços IP, máscaras de sub-rede e gateways para hosts. É assim que funciona:
+
+- Um host ao entrar em uma rede, transmite uma mensagem em busca de um servidor DHCP (DHCP DISCOVER)
+- Uma mensagem de oferta é enviada de volta pelo servidor DHCP como um pacote contendo tempo de concessão, máscara de sub-rede, endereços IP, etc (DHCP OFFER)
+- Dependendo de qual oferta aceita, o cliente envia de volta um broadcast de resposta informando todos os servidores DHCP (DHCP REQUEST)
+- O servidor envia uma confirmação (DHCP ACK)
+
+Leia mais  [aqui](https://linuxjourney.com/lesson/dhcp-overview)
 </b></details>
 
 <details>
-<summary>What is SSL tunneling? How does it works?</summary><br><b>
+<summary>Você pode ter dois servidores DHCP na mesma rede? Como funciona?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is a socket? Where can you see the list of sockets in your system?</summary><br><b>
+<summary>O que é encapsulamento SSL? Como isso funciona?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is IPv6? Why should we consider using it if we have IPv4?</summary><br><b>
+<summary></summary><br><b>
+</b></details>
+
+<details>
+<summary>O que é uma tomada? Onde você pode ver a lista de soquetes em seu sistema?</summary><br><b>
 </b></details>
 
 <details>
