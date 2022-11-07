@@ -4,7 +4,7 @@
 
 ### Em geral
 
-<detalhes>
+<details>
 <summary>O que é DevOps?</summary><br><b>
 
 A definição de DevOps de empresas selecionadas:
@@ -24,9 +24,9 @@ A definição de DevOps de empresas selecionadas:
 **Google**:
 
 "...O movimento organizacional e cultural que visa aumentar a velocidade de entrega de software, melhorar a confiabilidade do serviço e construir propriedade compartilhada entre as partes interessadas do software"
-</b></detalhes>
+</b></details>
 
-<detalhes>
+<details>
 <resumo>Quais são os benefícios do DevOps? O que isso pode nos ajudar a alcançar?</summary><br><b>
 
   * Colaboração
@@ -35,199 +35,198 @@ A definição de DevOps de empresas selecionadas:
   * Velocidade
   * Escala
   * Confiabilidade
+</b></details>
+
+<details>
+<Summary>Quais são os antipadrões do DevOps?</summary><br><b>
+
+Alguns exemplos:
+
+* Uma pessoa é responsável por tarefas específicas. Por exemplo, há apenas uma pessoa que tem permissão para mesclar o código de todos os outros no repositório.
+* Tratar a produção de forma diferente do ambiente de desenvolvimento. Por exemplo, não implementar a segurança no ambiente de desenvolvimento
+* Não permitir que alguém avance para a produção na sexta-feira ;)
 </b></detalhes>
 
+<detalhes>
+<summary>Como você descreveria um engenheiro de DevOps bem-sucedido ou uma equipe?</summary><br><b>
+
+A resposta pode se concentrar em:
+
+* Colaboração
+* Comunicação
+* Configurar e melhorar fluxos de trabalho e processos (relacionados a testes, entrega, ...)
+* Lidar com problemas
+
+Coisas para pensar:
+
+* Em que equipes ou engenheiros de DevOps NÃO devem se concentrar ou fazer?
+* As equipes ou engenheiros de DevOps precisam ser inovadores ou praticar a inovação como parte de sua função?
+</b></detalhes>
+
+<detalhes>
+<resumo>Um dos membros de sua equipe sugere definir uma meta de "implantar pelo menos 20 vezes por dia" em relação ao CD. Qual é a sua opinião sobre isso?</summary><br><b>
+
+Um par de pensamentos:
+
+1. Por que é um objetivo importante? Isso está afetando o negócio de alguma forma? Um dos KPIs? Em outras palavras, isso importa?
+2. Isso pode introduzir riscos, como perder qualidade em favor da quantidade
+3. Você pode querer definir uma meta possivelmente melhor, como "ser capaz de implantar sempre que precisarmos implantar"
+</b></detalhes>
+
+### Ferramentas
+
 <details>
-<summary>What are the anti-patterns of DevOps?</summary><br><b>
+<summary>O que você leva em consideração ao escolher uma ferramenta/tecnologia?</summary><br><b>
 
-A couple of examples:
+Algumas ideias para pensar:
 
-* One person is in charge of specific tasks. For example there is only one person who is allowed to merge the code of everyone else into the repository.
-* Treating production differently from development environment. For example, not implementing security in development environment
-* Not allowing someone to push to production on Friday ;)
+  * maduro/estável vs. de ponta
+  * tamanho da comunidade
+  * aspectos de arquitetura - agente vs. sem agente, mestre vs. sem mestre, etc.
+  * curva de aprendizado
 </b></details>
 
 <details>
-<summary>How would you describe a successful DevOps engineer or a team?</summary><br><b>
-
-The answer can focus on:
-
-* Collaboration
-* Communication
-* Set up and improve workflows and processes (related to testing, delivery, ...)
-* Dealing with issues
-
-Things to think about:
-
-* What DevOps teams or engineers should NOT focus on or do?
-* Do DevOps teams or engineers have to be innovative or practice innovation as part of their role?
-</b></details>
-
-<details>
-<summary>One of your team members suggests to set a goal of "deploying at least 20 times a day" in regards to CD. What is your take on that?</summary><br><b>
-
-A couple of thoughts:
-
-1. Why is it an important goal? Is it affecting the business somehow? One of the KPIs? In other words, does it matters?
-2. This might introduce risks such as losing quality in favor of quantity
-3. You might want to set a possibly better goal such as "be able to deploy whenever we need to deploy"
-</b></details>
-
-### Tooling
-
-<details>
-<summary>What do you take into consideration when choosing a tool/technology?</summary><br><b>
-
-A few ideas to think about:
-
-  * mature/stable vs. cutting edge
-  * community size
-  * architecture aspects - agent vs. agentless, master vs. masterless, etc.
-  * learning curve
-</b></details>
-
-<details>
-<summary>Can you describe which tool or platform you chose to use in some of the following areas and how?
+<resumo>Você pode descrever qual ferramenta ou plataforma você escolheu usar em algumas das seguintes áreas e como?
 
   * CI/CD
-  * Provisioning infrastructure
-  * Configuration Management
-  * Monitoring & alerting
-  * Logging
-  * Code review
-  * Code coverage
-  * Issue Tracking
-  * Containers and Containers Orchestration
-  * Tests</summary><br><b>
+  * Infraestrutura de provisionamento
+  * Gerenciamento de configurações
+  * Monitoramento e alerta
+  * Exploração madeireira
+  * Revisão de código
+  * Cobertura de código
+  * Acompanhamento de problemas
+  * Containers e Orquestração de Containers
+  * Testes</summary><br><b>
 
-This is a more practical version of the previous question where you might be asked additional specific questions on the technology you chose
+Esta é uma versão mais prática da pergunta anterior, onde você pode fazer perguntas específicas adicionais sobre a tecnologia que você escolheu
 
   * CI/CD - Jenkins, Circle CI, Travis, Drone, Argo CD, Zuul
-  * Provisioning infrastructure - Terraform, CloudFormation
-  * Configuration Management - Ansible, Puppet, Chef
-  * Monitoring & alerting - Prometheus, Nagios
+  * Infraestrutura de provisionamento - Terraform, CloudFormation
+  * Gerenciamento de configuração - Ansible, Puppet, Chef
+  * Monitoramento e alertas - Prometheus, Nagios
   * Logging - Logstash, Graylog, Fluentd
-  * Code review - Gerrit, Review Board
-  * Code coverage - Cobertura, Clover, JaCoCo
-  * Issue tracking - Jira, Bugzilla
-  * Containers and Containers Orchestration - Docker, Podman, Kubernetes, Nomad
-  * Tests - Robot, Serenity, Gauge
+  * Revisão do código - Gerrit, Conselho de Revisão
+  * Cobertura de código - Cobertura, Clover, JaCoCo
+  * Rastreamento de problemas - Jira, Bugzilla
+  * Orquestração de Containers e Containers - Docker, Podman, Kubernetes, Nomad
+  * Testes - Robot, Serenity, Gauge
 </b></details>
 
 <details>
-<summary>A team member of yours, suggests to replace the current CI/CD platform used by the organization with a new one. How would you reply?</summary><br><b>
+<summary>Um membro de sua equipe sugere substituir a plataforma CI/CD atual usada pela organização por uma nova. Como você responderia?</summary><br><b>
 
-Things to think about:
+Coisas para pensar:
 
-* What we gain from doing so? Are there new features in the new platform? Does the new platform deals with some of the limitations presented in the current platform?
-* What this suggestion is based on? In other words, did he/she tried out the new platform? Was there extensive technical research?
-* What does the switch from one platform to another will require from the organization? For example, training users who use the platform? How much time the team has to invest in such move?
+* O que ganhamos com isso? Existem novos recursos na nova plataforma? A nova plataforma lida com algumas das limitações apresentadas na plataforma atual?
+* Em que se baseia esta sugestão? Em outras palavras, ele/ela experimentou a nova plataforma? Houve extensa pesquisa técnica?
+* O que a mudança de uma plataforma para outra exigirá da organização? Por exemplo, treinar usuários que usam a plataforma? Quanto tempo a equipe tem para investir nessa mudança?
 </b></details>
-
-### Version Control
+### Controle de versão
 
 <details>
-<summary>What is Version Control?</summary><br><b>
+<summary>O que é controle de versão?</summary><br><b>
+
+* O controle de versão é o sistema de rastreamento e gerenciamento de alterações no código do software.
+* Ajuda as equipes de software a gerenciar alterações no código-fonte ao longo do tempo.
+* O controle de versão também ajuda os desenvolvedores a se moverem mais rapidamente e permite que as equipes de software preservem a eficiência e a agilidade à medida que a equipe é dimensionada para incluir mais desenvolvedores.
+</b></details>
+
+<details>
+<summary>O que é um commit?</summary><br><b>
+
+* No Git, um commit é um instantâneo do seu repositório em um momento específico.
+* O comando git commit salvará todas as alterações preparadas, juntamente com uma breve descrição do usuário, em um “commit” para o repositório local.
+</b></details>
+
+<details>
+<summary>O que é uma mesclagem?</summary><br><b>
+
+* Mesclar é a maneira do Git de reunir um histórico bifurcado novamente. O comando git merge permite que você pegue as linhas independentes de desenvolvimento criadas pelo git branch e integre-as em um único branch.
+</b></details>
+
+<detalhes>
+<summary>O que é um conflito de mesclagem?</summary><br><b>
+
+* Um conflito de mesclagem é um evento que ocorre quando o Git não consegue resolver automaticamente as diferenças no código entre dois commits. Quando todas as mudanças no código ocorrem em linhas diferentes ou em arquivos diferentes, o Git irá mesclar commits com sucesso sem sua ajuda.
+</b></details>
+
+<details>
+<summary>Quais práticas recomendadas você conhece em relação ao controle de versão?</summary><br><b>
 	
-* Version control is the system of tracking and managing changes to software code.
-* It helps software teams to manage changes to source code over time.
-* Version control also helps developers move faster and allows software teams to preserve efficiency and agility as the team scales to include more developers.
+* Use uma mensagem de confirmação descritiva
+* Faça de cada commit uma unidade lógica
+* Incorpore as mudanças dos outros com frequência
+* Compartilhe suas alterações com frequência
+* Coordenar com seus colegas de trabalho
+* Não comite arquivos gerados
 </b></details>
 
 <details>
-<summary>What is a commit?</summary><br><b>
-	
-* In Git, a commit is a snapshot of your repo at a specific point in time.
-* The git commit command will save all staged changes, along with a brief description from the user, in a “commit” to the local repository.
+<summary>Você prefere um modelo de "configuração->implantação" ou "implantação->configuração"? Por quê?</summary><br><b>
+
+Ambos têm vantagens e desvantagens.
+Com o modelo "configuração->implantação", por exemplo, onde você cria uma imagem para ser usada por várias implantações, há menos chance de as implantações serem diferentes umas das outras, portanto, há uma clara vantagem de um ambiente consistente.
 </b></details>
 
 <details>
-<summary>What is a merge?</summary><br><b>
+<summary>Explicar infraestrutura mutável x imutável</summary><br><b>
 
-* Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch.
+No paradigma de infraestrutura mutável, as mudanças são aplicadas na infraestrutura existente e ao longo do tempo
+a infraestrutura constrói um histórico de mudanças. Ansible, Puppet e Chef são exemplos de ferramentas que
+seguir o paradigma de infraestrutura mutável.
+
+No paradigma de infraestrutura imutável, cada mudança é, na verdade, uma nova infraestrutura. Então uma mudança
+para um servidor resultará em um novo servidor em vez de atualizá-lo. Terraform é um exemplo de tecnologia
+que segue o paradigma da infraestrutura imutável.
+</b></details>
+
+### Distribuição de Software
+
+<details>
+<summary>Explicar "Distribuição de software"</summary><br><b>
+
+Leia [este](https://venam.nixers.net/blog/unix/2020/03/29/distro-pkgs.html) artigo fantástico sobre o assunto.
+
+Do artigo: "Assim, a distribuição de software é sobre o mecanismo e a comunidade que assume o fardo e as decisões para construir um conjunto de software coerente que pode ser distribuído."
+</b></details>
+
+<detalhes>
+<resumo>Por que existem várias distribuições de software? Que diferenças eles podem ter?</summary><br><b>
+
+Diferentes distribuições podem focar em coisas diferentes como: focar em ambientes diferentes (servidor vs. móvel vs. desktop), suportar hardware específico, especializar-se em diferentes domínios (segurança, multimídia, ...), etc. Basicamente, diferentes aspectos do software e o que ele suporta, obtêm prioridade diferente em cada distribuição.
 </b></details>
 
 <details>
-<summary>What is a merge conflict?</summary><br><b>
+<summary>O que é um repositório de software?</summary><br><b>
 
-* A merge conflict is an event that occurs when Git is unable to automatically resolve differences in code between two commits. When all the changes in the code occur on different lines or in different files, Git will successfully merge commits without your help.
+Wikipedia: "Um repositório de software, ou "repo" para abreviar, é um local de armazenamento para pacotes de software. Muitas vezes, um índice é armazenado, assim como metadados."
+
+Leia mais [aqui](https://en.wikipedia.org/wiki/Software_repository)
 </b></details>
 
 <details>
-<summary>What best practices are you familiar with regarding version control?</summary><br><b>
-	
-* Use a descriptive commit message
-* Make each commit a logical unit
-* Incorporate others' changes frequently
-* Share your changes frequently
-* Coordinate with your co-workers
-* Don't commit generated files
+<resumo>Quais são as formas de distribuir software? Quais são as vantagens e desvantagens de cada método?</summary><br><b>
+
+  * Source - Mantenha o script de compilação dentro do sistema de controle de versão para que o usuário possa compilar seu aplicativo após a clonagem do repositório. Vantagem: O usuário pode verificar rapidamente diferentes versões do aplicativo. Desvantagem: requer ferramentas de compilação instaladas na máquina do usuário.
+  * Arquivo - colete todos os arquivos do seu aplicativo em um arquivo (por exemplo, tar) e entregue-o ao usuário. Vantagem: O usuário obtém tudo o que precisa em um arquivo. Desvantagem: Requer repetir o mesmo procedimento ao atualizar, não é bom se houver muitas dependências.
+  * Pacote - depende do sistema operacional, você pode usar o formato do pacote do sistema operacional (por exemplo, em RHEL/Fefodra é RPM) para entregar seu software com uma maneira de instalar, desinstalar e atualizá-lo usando os comandos padrão do empacotador. Vantagens: O gerenciador de pacotes cuida do suporte para instalação, desinstalação, atualização e gerenciamento de dependências. Desvantagem: Requer o gerenciamento do repositório de pacotes.
+  * Imagens - Imagens de VM ou contêiner em que seu pacote está incluído com tudo o que precisa para ser executado com sucesso. Vantagem: tudo é pré-instalado, possui alto grau de isolamento do ambiente. Desvantagem: Requer conhecimento de construção e otimização de imagens.
 </b></details>
 
 <details>
-<summary>Would you prefer a "configuration->deployment" model or "deployment->configuration"? Why?</summary><br><b>
+<resumo>Você conhece os modelos "A Catedral e o Bazar"? Explique cada um dos modelos</summary><br><b>
 
-Both have advantages and disadvantages.
-With "configuration->deployment" model for example, where you build one image to be used by multiple deployments, there is less chance of deployments being different from one another, so it has a clear advantage of a consistent environment.
+* Cathedral - código-fonte lançado quando o software é lançado
+* Bazaar - o código-fonte está sempre disponível publicamente (por exemplo, Linux Kernel)
 </b></details>
 
-<details>
-<summary>Explain mutable vs. immutable infrastructure</summary><br><b>
+<detalhes>
+<resumo>O que é cache? Como funciona? Por que é importante?</summary><br><b>
 
-In mutable infrastructure paradigm, changes are applied on top of the existing infrastructure and over time
-the infrastructure builds up a history of changes. Ansible, Puppet and Chef are examples of tools which
-follow mutable infrastructure paradigm.
-
-In immutable infrastructure paradigm, every change is actually a new infrastructure. So a change
-to a server will result in a new server instead of updating it. Terraform is an example of technology
-which follows the immutable infrastructure paradigm.
-</b></details>
-
-### Software Distribution
-
-<details>
-<summary>Explain "Software Distribution"</summary><br><b>
-
-Read [this](https://venam.nixers.net/blog/unix/2020/03/29/distro-pkgs.html) fantastic article on the topic.
-
-From the article: "Thus, software distribution is about the mechanism and the community that takes the burden and decisions to build an assemblage of coherent software that can be shipped."
-</b></details>
-
-<details>
-<summary>Why are there multiple software distributions? What differences they can have?</summary><br><b>
-
-Different distributions can focus on different things like: focus on different environments (server vs. mobile vs. desktop), support specific hardware, specialize in different domains (security, multimedia, ...), etc. Basically, different aspects of the software and what it supports, get different priority in each distribution.
-</b></details>
-
-<details>
-<summary>What is a Software Repository?</summary><br><b>
-
-Wikipedia: "A software repository, or “repo” for short, is a storage location for software packages. Often a table of contents is stored, as well as metadata."
-
-Read more [here](https://en.wikipedia.org/wiki/Software_repository)
-</b></details>
-
-<details>
-<summary>What ways are there to distribute software? What are the advantages and disadvantages of each method?</summary><br><b>
-
-  * Source - Maintain build script within version control system so that user can build your app after cloning repository. Advantage: User can quickly checkout different versions of application. Disadvantage: requires build tools installed on users machine.
-  * Archive - collect all your app files into one archive (e.g. tar) and deliver it to the user. Advantage: User gets everything he needs in one file. Disadvantage: Requires repeating the same procedure when updating, not good if there are a lot of dependencies.
-  * Package - depends on the OS, you can use your OS package format (e.g. in RHEL/Fefodra it's RPM) to deliver your software with a way to install, uninstall and update it using the standard packager commands. Advantages: Package manager takes care of support for installation, uninstallation, updating and dependency management. Disadvantage: Requires managing package repository.
-  * Images - Either VM or container images where your package is included with everything it needs in order to run successfully. Advantage: everything is preinstalled, it has high degree of environment isolation. Disadvantage: Requires knowledge of building and optimizing images.
-</b></details>
-
-<details>
-<summary>Are you familiar with "The Cathedral and the Bazaar models"? Explain each of the models</summary><br><b>
-
-* Cathedral - source code released when software is released
-* Bazaar - source code is always available publicly (e.g. Linux Kernel)
-</b></details>
-
-<details>
-<summary>What is caching? How does it work? Why is it important?</summary><br><b>
-
-Caching is fast access to frequently used resources which are computationally expensive or IO intensive and do not change often. There can be several layers of cache that can start from CPU caches to distributed cache systems. Common ones are in memory caching and distributed caching. <br/> Caches are typically data structures that contains some data, such as a hashtable or dictionary. However, any data structure can provide caching capabilities, like set, sorted set, sorted dictionary etc. While, caching is used in many applications, they can create subtle bugs if not implemented correctly or used correctly. For example,cache invalidation, expiration or updating is usually quite challenging and hard.
-</b></details>
+O cache é o acesso rápido a recursos usados ​​com frequência que são computacionalmente caros ou intensivos em E/S e não mudam com frequência. Pode haver várias camadas de cache que podem começar de caches de CPU para sistemas de cache distribuídos. Os mais comuns estão no cache de memória e no cache distribuído. <br/> Caches são tipicamente estruturas de dados que contêm alguns dados, como uma tabela de hash ou um dicionário. No entanto, qualquer estrutura de dados pode fornecer recursos de cache, como conjunto, conjunto classificado, dicionário classificado, etc. Embora o cache seja usado em muitos aplicativos, eles podem criar bugs sutis se não forem implementados corretamente ou usados ​​corretamente. Por exemplo, a invalidação, expiração ou atualização de cache geralmente é bastante desafiadora e difícil.
+</b></detalhes>
 
 <details>
 <summary>Explain stateless vs. stateful</summary><br><b>
