@@ -106,7 +106,7 @@
 </b></details>
 
 <details>
-<summary>What is TCP/IP?</summary><br><b>
+<summary>Oque é  TCP/IP?</summary><br><b>
 
 Um conjunto de protocolos que definem como dois ou mais dispositivos podem se comunicar entre si.
 
@@ -345,48 +345,45 @@ Leia mais  [aqui](https://linuxjourney.com/lesson/dhcp-overview)
 </b></details>
 
 <details>
-<summary>What is VLAN?</summary><br><b>
+<summary>O que é VLAN?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is MTU?</summary><br><b>
+<summary>O que é MTU?</summary><br><b>
 	
-MTU stands for Maximum Transmission Unit. It's the size of the largest PDU (protocol Data Unit) that can be sent in a single transaction.
+MTU significa Unidade Máxima de Transmissão. É o tamanho da maior PDU (protocol Data Unit) que pode ser enviada em uma única transação.
 </b></details>
 
 <details>
-<summary>What happens if you send a packet that is bigger than the MTU?</summary><br><b>
+<summary>O que acontece se você enviar um pacote maior que o MTU?</summary><br><b>
 	
-With IPv4 protocol, router can fragment the PDU then sending all the fragmented PDU through the transaction.
-	
-With IPv6 protocol, it issues a error to the user's computer.
+Com o protocolo IPv4, o roteador pode fragmentar a PDU e enviar todas as PDU fragmentadas por meio da transação.Com o protocolo IPv6, ele emite um erro no computador do usuário.
 </b></details>
 
 <details>
-<summary>True or False?. Ping is using UDP because it doesn't care about reliable connection</summary><br><b>
+<summary>Verdadeiro ou falso?. Ping está usando UDP porque não se importa com conexão confiável </summary><br><b>
 </b></details>
 
 <details>
-<summary>What is SDN?</summary><br><b>
+<summary>O que é SDN?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is ICMP? What is it used for?</summary><br><b>
+<summary>O que é ICMP? Para que isso é usado?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is NAT? How does it work?</summary><br><b>
+<summary>O que é NAT? Como funciona?</summary><br><b>
 
-NAT stands for network address translation. It’s a way to map multiple local private addresses to a public one before transferring the information. Organizations that want multiple devices to employ a single IP address use NAT, as do most home routers.
-For example, your computer's private IP could be 192.168.1.100, but your router maps the traffic to it's public IP (e.g. 1.1.1.1). Any device on the internet would see the traffic coming from your public IP (1.1.1.1) instead of your private IP (192.168.1.100).
+NAT significa tradução de endereços de rede. É uma maneira de mapear vários endereços privados locais para um público antes de transferir as informações. As organizações que desejam que vários dispositivos empreguem um único endereço IP usam NAT, assim como a maioria dos roteadores domésticos. Por exemplo, o IP privado do seu computador pode ser 192.168.1.100, mas seu roteador mapeia o tráfego para seu IP público (por exemplo, 1.1.1.1). Qualquer dispositivo na Internet veria o tráfego vindo do seu IP público (1.1.1.1) em vez do seu IP privado (192.168.1.100).
 </b></details>
 
 <details>
-<summary>Which factors affect network performances</summary><br><b>
+<summary>Quais fatores afetam o desempenho da rede</summary><br><b>
 </b></details>
 
 <details>
-<summary>Which port number is used in each of the following protocols?:
+<summary>Qual número de porta é usado em cada um dos seguintes protocolos?:
 
   * SSH
   * SMTP
@@ -407,416 +404,407 @@ For example, your computer's private IP could be 192.168.1.100, but your router 
 </b></details>
 
 <details>
-<summary>Which factors affect network performances</summary><br><b>
+<summary>Quais fatores afetam o desempenho da rede</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is APIPA?</summary><br><b>
+<summary>O que é APIPA?</summary><br><b>
 
-APIPA is a set of it addresses that devices are allocated
-when the main DHCP server is not reachable
+APIPA é um conjunto de endereços que os dispositivos são alocados quando o servidor DHCP principal não está acessível.
 
 </b></details>
 
 <details>
-<summary>What ip range does APIPA use?</summary><br><b>
+<summary>Qual faixa de ip a APIPA usa?</summary><br><b>
 
-APIPA uses the ip range: 169.254.0.1 - 169.254.255.254.
+APIPA usa o intervalo de ip: 169.254.0.1 - 169.254.255.254.
 
 </b></details>
 
-#### Control Plane and Data Plane
+#### Plano de controle e plano de dados
 
 <details>
-<summary>What "control plane" refers to?</summary><br><b>
+<summary>A que "plano de controle" se refere?</summary><br><b>
 
-The control plane is the part of the network that decides how to route and forward packets to a different location.
+O plano de controle é a parte da rede que decide como rotear e encaminhar pacotes para um local diferente.
 </b></details>
 
 <details>
-<summary>What "data plane" refers to?</summary><br><b>
+<summary>A que "plano de dados" se refere?</summary><br><b>
 
-The data plane is the part of the network that actually forwards the data/packets.
+O plano de dados é a parte da rede que realmente encaminha os dados/pacotes.
 </b></details>
 
 <details>
-<summary>What "management plane" refers to?</summary><br><b>
+<summary>A que "plano de gestão" se refere?</summary><br><b>
 
-Refers to monitoring and management functions.
+Refere-se às funções de monitoramento e gerenciamento.
 </b></details>
 
 <details>
-<summary>To which plane (data, control, ...) is creating routing tables belongs to?</summary><br><b>
+<summary>A qual plano (dados, controle, ...) pertence a criação de tabelas de roteamento?</summary><br><b>
 
-Control Plane.
+Plano de Controle.
 </b></details>
 
 <details>
-<summary>Explain Spanning Tree Protocol (STP)</summary><br><b>
+<summary>Explicar o Spanning Tree Protocol (STP)</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is link aggregation? Why is it used?</summary><br><b>
+<summary>O que é agregação de links? Por que é usado?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is Asymmetric Routing? How do deal with it?</summary><br><b>
+<summary>O que é roteamento assimétrico? Como lidar com isso?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What overlay (tunnel) protocols are you familiar with?</summary><br><b>
+<summary>Com quais protocolos de sobreposição (túnel) você está familiarizado?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is GRE? How does it works?</summary><br><b>
+<summary>O que é GRE? Como isso funciona?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is VXLAN? How does it works?</summary><br><b>
+<summary>O que é VXLAN? Como isso funciona?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is SNAT?</summary><br><b>
+<summary>O que é SNAT?</summary><br><b>
 </b></details>
 
 <details>
-<summary>Explain OSPF</summary><br><b>
+<summary>Explique OSPF? </summary><br><b>
 </b></details>
 
 <details>
-<summary>What is latency?</summary><br><b>
+<summary>O que é latência?</summary><br><b>
 	
-Latency is the time taken for an information to reach its destination from the source.
+A latência é o tempo necessário para uma informação chegar ao seu destino a partir da fonte.
 </b></details>
 
 <details>
-<summary>What is bandwidth?</summary><br><b>
+<summary>O que é largura de banda?</summary><br><b>
 	
-Bandwidth is the capacity of a communication channel to measure how much data the latter can handle over a specific time period. More bandwidth would imply more traffic handling and thus more data transfer.
+Largura de banda é a capacidade de um canal de comunicação para medir a quantidade de dados que o último pode manipular em um período de tempo específico. Mais largura de banda implicaria mais manipulação de tráfego e, portanto, mais transferência de dados.
 </b></details>
 
 <details>
-<summary>What is throughput?</summary><br><b>
+<summary>O que é rendimento?</summary><br><b>
 	
-Throughput refers to the measurement of the real amount of data transferred over a certain period of time across any transmission channel.
+A taxa de transferência refere-se à medição da quantidade real de dados transferidos durante um determinado período de tempo em qualquer canal de transmissão.
 </b></details>
 
 <details>
-<summary>When performing a search query, what is more important, latency or throughput? And how to assure that what managing global infrastructure?</summary><br><b>
+<summary>Ao realizar uma consulta de pesquisa, o que é mais importante, latência ou taxa de transferência? E como garantir que o gerenciamento de infraestrutura global?</summary><br><b>
 
-Latency. To have a good latency, a search query should be forwarded to the closest datacenter.
+Latência. Para ter uma boa latência, uma consulta de pesquisa deve ser encaminhada para o datacenter mais próximo.
 </b></details>
 
 <details>
-<summary>When uploading a video, what is more important, latency or throughput? And how to assure that?</summary><br><b>
+<summary>Taxa de transferência. Para ter uma boa taxa de transferência, o fluxo de upload deve ser roteado para um link subutilizado.</summary><br><b>
 
-Throughput. To have a good throughput, the upload stream should be routed to an underutilized link.
+
 </b></details>
 
 <details>
-<summary>What other considerations (except latency and throughput) are there when forwarding requests?</summary><br><b>
+<summary>Que outras considerações (exceto latência e taxa de transferência) existem ao encaminhar solicitações?</summary><br><b>
 
-* Keep caches updated (which means the request could be forwarded not to the closest datacenter)
+* Mantenha os caches atualizados (o que significa que a solicitação pode ser encaminhada não para o datacenter mais próximo)
 </b></details>
 
 <details>
-<summary>Explain Spine & Leaf</summary><br><b>
+<summary>Explique Espinha e Folha</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is Network Congestion? What can cause it?</summary><br><b>
+<summary>O que é congestionamento de rede? O que pode causar isso?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What can you tell me about UDP packet format? What about TCP packet format? How is it different?</summary><br><b>
+<summary>O que você pode me dizer sobre o formato de pacote UDP? E quanto ao formato do pacote TCP? Como é diferente?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is the exponential backoff algorithm? Where is it used?</summary><br><b>
+<summary>O que é o algoritmo de recuo exponencial? Onde é usado?</summary><br><b>
 </b></details>
 
 <details>
-<summary>Using Hamming code, what would be the code word for the following data word 100111010001101?</summary><br><b>
+<summary>Usando o código de Hamming, qual seria a palavra de código para a seguinte palavra de dados 100111010001101?</summary><br><b>
 
 00110011110100011101
 </b></details>
 
 <details>
-<summary>Give examples of protocols found in the application layer</summary><br><b>
+<summary>Dê exemplos de protocolos encontrados na camada de aplicação</summary><br><b>
 
-* Hypertext Transfer Protocol (HTTP) - used for the webpages on the internet
-* Simple Mail Transfer Protocol (SMTP) - email transmission
-* Telecommunications Network - (TELNET) - terminal emulation to allow client access to telnet server
-* File Transfer Protocol (FTP) - facilitates transfer of files between any two machines
-* Domain Name System (DNS) - domain name translation
-* Dynamic Host Configuration Protocol (DHCP) - allocates IP addresses, subnet masks and gateways to hosts
-* Simple Network Management Protocol (SNMP) - gathers data of devices on the network
+* Hypertext Transfer Protocol (HTTP) - usado para as páginas da web na internet
+* Simple Mail Transfer Protocol (SMTP) - transmissão de e-mail
+* Rede de Telecomunicações - (TELNET) - emulação de terminal para permitir o acesso do cliente ao servidor telnet
+* File Transfer Protocol (FTP) - facilita a transferência de arquivos entre quaisquer duas máquinas
+* DDomain Name System (DNS) - tradução de nome de domínio
+* Dynamic Host Configuration Protocol (DHCP) - aloca endereços IP, máscaras de sub-rede e gateways para hosts
+* Simple Network Management Protocol (SNMP) - reúne dados de dispositivos na rede
 </b></details>
 
 <details>
-<summary>Give examples of protocols found in the network Layer</summary><br><b>
+<summary>Dê exemplos de protocolos encontrados na camada de rede</summary><br><b>
 
-* Internet Protocol (IP) - assists in routing packets from one machine to another
-* Internet Control Message Protocol (ICMP) - lets one know what is going such as error messages and debugging information
+* Internet Protocol (IP) - auxilia no roteamento de pacotes de uma máquina para outra
+* Internet Control Message Protocol (ICMP) - permite saber o que está acontecendo, como mensagens de erro e informações de depuração
 </b></details>
 
 <details>
-<summary>What is HSTS?</summary><br><b>
-HTTP Strict Transport Security is a web server directive that informs user agents and web browsers how to handle its connection through a response header sent at the very beginning and back to the browser. This forces connections over HTTPS encryption, disregarding any script's call to load any resource in that domain over HTTP.
-
-Read more [here](https://www.globalsign.com/en/blog/what-is-hsts-and-how-do-i-use-it#:~:text=HTTP%20Strict%20Transport%20Security%20(HSTS,and%20back%20to%20the%20browser.)
+<summary>O que é HST?</summary><br><b>
+HTTP Strict Transport Security é uma diretiva de servidor da web que informa aos agentes de usuário e navegadores da web como lidar com sua conexão por meio de um cabeçalho de resposta enviado no início e de volta ao navegador. Isso força conexões sobre criptografia HTTPS, desconsiderando qualquer chamada de script para carregar qualquer recurso nesse domínio sobre HTTP.
+Leia mais 
 </b></details>
 
-#### Network - Misc
+#### Rede - Diversos
 
 <details>
-<summary>What is the Internet? Is it the same as the World Wide Web?</summary><br><b>
+<summary>O que é a Internet? É o mesmo que a World Wide Web?</summary><br><b>
 
-The internet refers to network of networks, transferring huge amounts of data around the globe.<br>
-The World Wide Web is an application running on millions of server, on top of the internet, accessed through what is know as the web browser
+A internet refere-se à rede de redes, transferindo enormes quantidades de dados ao redor do globo.<br>
+A World Wide Web é um aplicativo rodando em milhões de servidores, em cima da internet, acessados através do que é conhecido como navegador web.
 </b></details>
 
 <details>
-<summary>What is the ISP?</summary><br><b>
+<summary>O que é o ISP?</summary><br><b>
 
-ISP (Internet Service Provider) is the local internet company provider.
+ISP (Internet Service Provider) é o provedor da empresa de internet local.
 </b></details>
 
-## Operating System
+## Sistema operacional
 
-### Operating System Exercises
+### Exercícios do sistema operacional
 
-|Name|Topic|Objective & Instructions|Solution|Comments|
+|Nome |Tema|Objetivo e instruções|Solução|Comentários|
 |--------|--------|------|----|----|
 |Fork 101|Fork|[Link](topics/os/fork_101.md)|[Link](topics/os/solutions/fork_101_solution.md)
 |Fork 102|Fork|[Link](topics/os/fork_102.md)|[Link](topics/os/solutions/fork_102_solution.md)
 
-### Operating System - Self Assessment
+### Sistema Operacional - Autoavaliação
 
 <details>
-<summary>What is an operating system?</summary><br><b>
+<summary>O que é um sistema operacional?</summary><br><b>
 
-From the book "Operating Systems: Three Easy Pieces":
-
-"responsible for making it easy to run programs (even allowing you to seemingly run many at the same time), allowing programs to share memory, enabling programs to interact with devices, and other fun stuff like that".
+Do livro "Sistemas Operacionais: Três Peças Fáceis":
+"responsável por facilitar a execução de programas (até mesmo permitindo que você aparentemente execute muitos ao mesmo tempo), permitindo que programas compartilhem memória, permitindo que programas interajam com dispositivos e outras coisas divertidas como essa".
 </b></details>
 
-#### Operating System - Process
+#### Sistema Operacional - Processo
 
 <details>
-<summary>Can you explain what is a process?</summary><br><b>
+<summary>Você pode explicar o que é um processo?</summary><br><b>
 
-A process is a running program. A program is one or more instructions and the program (or process) is executed by the operating system.
-</b></details>
-
-<details>
-<summary>If you had to design an API for processes in an operating system, what would this API look like?</summary><br><b>
-
-It would support the following:
-
-* Create - allow to create new processes
-* Delete - allow to remove/destroy processes
-* State - allow to check the state of the process, whether it's running, stopped, waiting, etc.
-* Stop - allow to stop a running process
+Um processo é um programa em execução. Um programa é uma ou mais instruções e o programa (ou processo) é executado pelo sistema operacional.
 </b></details>
 
 <details>
-<summary>How a process is created?</summary><br><b>
+<summary>Se você tivesse que projetar uma API para processos em um sistema operacional, como seria essa API?</summary><br><b>
 
-* The OS is reading program's code and any additional relevant data
-* Program's code is loaded into the memory or more specifically, into the address space of the process.
-* Memory is allocated for program's stack (aka run-time stack). The stack also initialized by the OS with data like argv, argc and parameters to main()
-* Memory is allocated for program's heap which is required for dynamically allocated data like the data structures linked lists and hash tables
-* I/O initialization tasks are performed, like in Unix/Linux based systems where each process has 3 file descriptors (input, output and error)
-* OS is running the program, starting from main()
+IEle suportaria o seguinte:
+
+* Criar - permite criar novos processos
+* Excluir - permite remover/destruir processos
+* Estado - permite verificar o estado do processo, se está em execução, parado, em espera, etc.
+* Parar - permite parar um processo em execução
 </b></details>
 
 <details>
-<summary>True or False? The loading of the program into the memory is done eagerly (all at once)</summary><br><b>
+<summary>Como um processo é criado?</summary><br><b>
 
-False. It was true in the past but today's operating systems perform lazy loading which means only the relevant pieces required for the process to run are loaded first.
+* O SO está lendo o código do programa e quaisquer dados relevantes adicionais
+* O código do programa é carregado na memória ou, mais especificamente, no espaço de endereço do processo.
+* A memória é alocada para a pilha do programa (também conhecida como pilha de tempo de execução).()
+* A memória é alocada para o heap do programa, que é necessário para dados alocados dinamicamente, como listas vinculadas de estruturas de dados e tabelas de hash
+* As tarefas de inicialização de E/S são executadas, como em sistemas baseados em Unix/Linux, onde cada processo possui 3 descritores de arquivo (entrada, saída e erro)
+* OS está executando o programa, começando de main()
 </b></details>
 
 <details>
-<summary>What are different states of a process?</summary><br><b>
+<summary>Verdadeiro ou falso? O carregamento do programa na memória é feito avidamente (tudo de uma vez)</summary><br><b>
 
-* Running - it's executing instructions
-* Ready - it's ready to run but for different reasons it's on hold
-* Blocked - it's waiting for some operation to complete. For example I/O disk request
+Falso. Era verdade no passado, mas os sistemas operacionais de hoje executam carregamento lento, o que significa que apenas as partes relevantes necessárias para a execução do processo são carregadas primeiro.
 </b></details>
 
 <details>
-<summary>What are some reasons for a process to become blocked?</summary><br><b>
+<summary>Quais são os diferentes estados de um processo?</summary><br><b>
 
-  - I/O operations (e.g. Reading from a disk)
-  - Waiting for a packet from a network
+* Executando - está executando instruções
+* Pronto - está pronto para ser executado, mas por diferentes motivos está em espera
+* Bloqueado - está aguardando a conclusão de alguma operação. Por exemplo, solicitação de disco de E/S
 </b></details>
 
 <details>
-<summary>What is Inter Process Communication (IPC)?</summary><br><b>
+<summary>Quais são alguns motivos para um processo ser bloqueado?</summary><br><b>
+
+  - Executando - está executando instruções
+  - Aguardando um pacote de uma rede
 </b></details>
 
 <details>
-<summary>What is "time sharing"?</summary><br><b>
-
-Even when using a system with one physical CPU, it's possible to allow multiple users to work on it and run programs. This is possible with time sharing where computing resources are shared in a way it seems to the user the system has multiple CPUs but in fact it's simply one CPU shared by applying multiprogramming and multi-tasking.
+<summary>O que é a comunicação entre processos (IPC)?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is "space sharing"?</summary><br><b>
+<summary>o que é "compartilhar o tempo"?</summary><br><b>
 
-Somewhat the opposite of time sharing. While in time sharing a resource is used for a while by one entity and then the same resource can be used by another resource, in space sharing the space is shared by multiple entities but in a way where it's not being transferred between them.<br>
-It's used by one entity until this entity decides to get rid of it. Take for example storage. In storage, a file is yours until you decide to delete it.
+Mesmo ao usar um sistema com uma CPU física, é possível permitir que vários usuários trabalhem nele e executem programas. Isso é possível com o compartilhamento de tempo, onde os recursos de computação são compartilhados de uma maneira que parece ao usuário que o sistema possui várias CPUs, mas na verdade é simplesmente uma CPU compartilhada pela aplicação de multiprogramação e multitarefa.
 </b></details>
 
 <details>
-<summary>What component determines which process runs at a given moment in time?</summary><br><b>
+<summary>O que é "compartilhamento de espaço"?</summary><br><b>
 
-CPU scheduler
+Um pouco o oposto do compartilhamento de tempo. Enquanto no compartilhamento de tempo um recurso é usado por um tempo por uma entidade e, em seguida, o mesmo recurso pode ser usado por outro recurso, no compartilhamento de espaço o espaço é compartilhado por várias entidades, mas de uma forma que não está sendo transferido entre elas.
+Ele é usado por uma entidade até que essa entidade decida se livrar dele. Tomemos por exemplo o armazenamento. No armazenamento, um arquivo é seu até que você decida excluí-lo.
 </b></details>
 
-#### Operating System - Memory
+<details>
+<summary>Qual componente determina qual processo é executado em um determinado momento?</summary><br><b>
+
+agendador de CPU
+</b></details>
+
+#### Sistema operacional - Memória
 
 <details>
-<summary>What is "virtual memory" and what purpose it serves?</summary><br><b>
+<summary>O que é "memória virtual" e para que serve?</summary><br><b>
 
-Virtual memory combines your computer's RAM with temporary space on your hard disk. When RAM runs low, virtual memory helps to move data from RAM to a space called a paging file. Moving data to paging file can free up the RAM so your computer can complete its work. In general, the more RAM your computer has, the faster the programs run.
+A memória virtual combina a RAM do seu computador com espaço temporário no disco rígido. Quando a RAM fica baixa, a memória virtual ajuda a mover os dados da RAM para um espaço chamado arquivo de paginação. Mover dados para o arquivo de paginação pode liberar a RAM para que seu computador possa concluir seu trabalho. Em geral, quanto mais RAM seu computador tiver, mais rápido os programas serão executados.
 https://www.minitool.com/lib/virtual-memory.html
 </b></details>
 
 <details>
-<summary>What is demand paging?</summary><br><b>
+<summary>O que é paginação por demanda?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is copy-on-write or shadowing?</summary><br><b>
+<summary>O que é copy-on-write ou sombreamento?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is a kernel, and what does it do?</summary><br><b>
+<summary>O que é um kernel e o que ele faz?</summary><br><b>
 
-The kernel is part of the operating system and is responsible for tasks like:
+O kernel faz parte do sistema operacional e é responsável por tarefas como:
 
-  * Allocating memory
-  * Schedule processes
-  * Control CPU
+  * Alocando memória
+  * Agendar processos
+  * Controlar CPU
 </b></details>
 
 <details>
-<summary>True or False? Some pieces of the code in the kernel are loaded into protected areas of the memory so applications can't overwritten them</summary><br><b>
+<summary>Verdadeiro ou falso? Algumas partes do código no kernel são carregadas em áreas protegidas da memória para que os aplicativos não possam sobrescrevê-lasthem</summary><br><b>
 
-True
+verdadeiro
 </b></details>
 
 <details>
-<summary>What is POSIX?</summary><br><b>
+<summary>O que é POSIX?</summary><br><b>
 </b></details>
 
 <details>
-<summary>Explain what is Semaphore and what its role in operating systems</summary><br><b>
+<summary>Explicar o que é Semáforo e qual o seu papel nos sistemas operativos</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is cache? What is buffer?</summary><br><b>
+<summary>O que é cachê? O que é tampão?</summary><br><b>
 
-Buffer: Reserved place in RAM which is used to hold data for temporary purposes
-Cache: Cache is usually used when processes reading and writing to the disk to make the process faster by making similar data used by different programs easily accessible.
+Buffer: Lugar reservado na RAM que é usado para armazenar dados para fins temporários Cache: O cache geralmente é usado quando os processos lêem e gravam no disco para tornar o processo mais rápido, tornando facilmente acessíveis dados semelhantes usados por diferentes programas.
 </b></details>
 
-## Virtualization
+## Virtualização
 
 <details>
-<summary>What is Virtualization?</summary><br><b>
+<summary>O que é Virtualização?</summary><br><b>
 
-Virtualization uses software to create an abstraction layer over computer hardware that allows the hardware elements of a single computer—processors, memory, storage and more - to be divided into multiple virtual computers, commonly called virtual machines (VMs).
-</b></details>
-
-<details>
-<summary>What is a hypervisor?</summary><br><b>
-
-Red Hat: "A hypervisor is software that creates and runs virtual machines (VMs). A hypervisor, sometimes called a virtual machine monitor (VMM), isolates the hypervisor operating system and resources from the virtual machines and enables the creation and management of those VMs."
-
-Read more [here](https://www.redhat.com/en/topics/virtualization/what-is-a-hypervisor)
+A virtualização usa software para criar uma camada de abstração sobre o hardware do computador que permite que os elementos de hardware de um único computador - processadores, memória, armazenamento e mais - sejam divididos em vários computadores virtuais, comumente chamados de máquinas virtuais (VMs).
 </b></details>
 
 <details>
-<summary>What types of hypervisors are there?</summary><br><b>
+<summary>O que é um hipervisor?</summary><br><b>
 
-Hosted hypervisors and bare-metal hypervisors.
+Red Hat: "Um hipervisor é um software que cria e executa máquinas virtuais (VMs). Um hipervisor, às vezes chamado de monitor de máquina virtual (VMM), isola o sistema operacional e os recursos do hipervisor das máquinas virtuais e permite a criação e o gerenciamento desses VMs."
+
+Leia mais [here](https://www.redhat.com/en/topics/virtualization/what-is-a-hypervisor)
 </b></details>
 
 <details>
-<summary>What are the advantages and disadvantges of bare-metal hypervisor over a hosted hypervisor?</summary><br><b>
+<summary>Que tipos de hipervisores existem?</summary><br><b>
 
-Due to having its own drivers and a direct access to hardware components, a baremetal hypervisor will often have better performances along with stability and scalability.
-
-On the other hand, there will probably be some limitation regarding loading (any) drivers so a hosted hypervisor will usually benefit from having a better hardware compatibility.
+Hipervisores hospedados e hipervisores bare-metal.
 </b></details>
 
 <details>
-<summary>What types of virtualization are there?</summary><br><b>
+<summary>Quais são as vantagens e desvantagens do hypervisor bare-metal sobre um hypervisor hospedado?</summary><br><b>
 
-Operating system virtualization
-Network functions virtualization
-Desktop virtualization
+Por ter seus próprios drivers e acesso direto aos componentes de hardware, um hypervisor baremetal geralmente terá melhor desempenho, além de estabilidade e escalabilidade.
+
+Por outro lado, provavelmente haverá alguma limitação em relação ao carregamento de (quaisquer) drivers, de modo que um hipervisor hospedado geralmente se beneficiará de uma melhor compatibilidade de hardware.
 </b></details>
 
 <details>
-<summary>Is containerization is a type of Virtualization?</summary><br><b>
-
-Yes, it's a operating-system-level virtualization, where the kernel is shared and allows to use multiple isolated user-spaces instances.
+<summary>Que tipos de virtualização existem?</summary><br><b>
+Virtualização de sistema operacional Virtualização de funções de rede Virtualização de desktop.
 </b></details>
 
 <details>
-<summary>How the introduction of virtual machines changed the industry and the way applications were deployed?</summary><br><b>
+<summary>A conteinerização é um tipo de virtualização?</summary><br><b>
 
-The introduction of virtual machines allowed companies to deploy multiple business applications on the same hardware while each application is separated from each other in secured way, where each is running on its own separate operating system.
-</b></details>
-
-#### Virtual Machines
-
-<details>
-<summary>Do we need virtual machines in the age of containers? Are they still relevant?</summary><br><b>
-</b></details>
-
-## Monitoring
-
-<details>
-<summary>Explain monitoring. What is it? What its goal?</summary><br><b>
-
-Google: "Monitoring is one of the primary means by which service owners keep track of a system’s health and availability".
+Sim, é uma virtualização em nível de sistema operacional, onde o kernel é compartilhado e permite o uso de várias instâncias de espaço de usuário isoladas.
 </b></details>
 
 <details>
-<summary>What is wrong with the old approach of watching for a specific value and trigger an email/phone alert while value is exceeded?</summary><br><b>
+<summary>Como a introdução de máquinas virtuais mudou o setor e a forma como os aplicativos foram implantados?</summary><br><b>
 
-This approach require from a human to always check why the value exceeded and how to handle it while today, it is more effective to notify people only when they need to take an actual action.
-If the issue doesn't require any human intervention, then the problem can be fixed by some processes running in the relevant environment.
+A introdução de máquinas virtuais permitiu que as empresas implantassem vários aplicativos de negócios no mesmo hardware, enquanto cada aplicativo é separado um do outro de maneira segura, onde cada um é executado em seu próprio sistema operacional separado.
+</b></details>
+
+#### Máquinas virtuais
+
+<details>
+<summary>Precisamos de máquinas virtuais na era dos contêineres? Eles ainda são relevantes</summary><br><b>
+</b></details>
+
+## Monitoramento
+
+<details>
+<summary>Explique o monitoramento. O que é isso? Qual seu objetivo?</summary><br><b>
+
+GGoogle: "O monitoramento é um dos principais meios pelos quais os proprietários de serviços acompanham a integridade e a disponibilidade de um sistema".
 </b></details>
 
 <details>
-<summary>What types of monitoring outputs are you familiar with and/or used in the past?</summary><br><b>
+<summary>O que há de errado com a abordagem antiga de observar um valor específico e acionar um alerta por e-mail/telefone enquanto o valor é excedido?</summary><br><b>
 
-Alerts<br>
-Tickets<br>
-Logging<br>
+Essa abordagem exige que um humano sempre verifique por que o valor foi excedido e como lidar com isso, enquanto hoje é mais eficaz notificar as pessoas apenas quando elas precisam realizar uma ação real. Se o problema não exigir nenhuma intervenção humana, o problema poderá ser corrigido por alguns processos em execução no ambiente relevante.
 </b></details>
 
 <details>
-<summary>What is the difference between infrastructure monitoring and application monitoring? (methods, tools, ...)</summary><br><b>
+<summary>Que tipos de saídas de monitoramento você conhece e/ou usou no passado?</summary><br><b>
+
+Alertas<br>
+mensagens<br>
+</b></details>
+
+<details>
+<summary>Qual é a diferença entre monitoramento de infraestrutura e monitoramento de aplicativos? (métodos, ferramentas, ...)</summary><br><b>
 </b></details>
 
 ### Application Performance Management
 
 <details>
-<summary>What is Application Performance Management?</summary><br><b>
+<summary>Gerenciamento de desempenho de aplicativos?</summary><br><b>
 
-- IT metrics translated into business insights
-- Practices for monitoring applications insights so we can improve performances, reduce issues and improve overall user experience
+- Métricas de TI traduzidas em insights de negócios
+- Práticas para monitorar insights de aplicativos para que possamos melhorar o desempenho, reduzir problemas e melhorar a experiência geral do usuário
 </b></details>
 
 <details>
-<summary>Name three aspects of a project you can monitor with APM (e.g. backend)</summary><br><b>
+<summary>Cite três aspectos de um projeto que você pode monitorar com o APM (por exemplo, back-end) </summary><br><b>
 
 - Frontend
 - Backend
@@ -825,7 +813,7 @@ Logging<br>
 </b></details>
 
 <details>
-<summary>What can be collected/monitored to perform APM monitoring?</summary><br><b>
+<summary>O que pode ser coletado/monitorado para realizar o monitoramento do APM?</summary><br><b>
 
 - Metrics
 - Logs
@@ -836,115 +824,115 @@ Logging<br>
 ## Prometheus
 
 <details>
-<summary>What is Prometheus? What are some of Prometheus's main features?</summary><br><b>
+<summary>O que é Prometeu? Quais são algumas das principais características do Prometheus?</summary><br><b>
 </b></details>
 
 <details>
-<summary>In what scenarios it might be better to NOT use Prometheus?</summary><br><b>
+<summary>Em quais cenários pode ser melhor NÃO usar o Prometheus?</summary><br><b>
 
-From Prometheus documentation: "if you need 100% accuracy, such as for per-request billing".
+Da documentação do Prometheus: "se você precisar de 100% de precisão, como para cobrança por solicitação".
 </b></details>
 
 <details>
-<summary>Describe Prometheus architecture and components</summary><br><b>
+<summary>Descrever a arquitetura e os componentes do Prometheus</summary><br><b>
 </b></details>
 
 <details>
-<summary>Can you compare Prometheus to other solutions like InfluxDB for example?</summary><br><b>
+<summary>Você pode comparar o Prometheus a outras soluções como o InfluxDB, por exemplo? </summary><br><b>
 </b></details>
 
 <details>
-<summary>What is an Alert?</summary><br><b>
+<summary>O que é um Alerta?</summary><br><b>
 </b></details>
 
 <details>
-<summary>Describe the following Prometheus components:
+<summary>Descreva os seguintes componentes do Prometheus:
 
   * Prometheus server
   * Push Gateway
   * Alert Manager</summary><br><b>
 
-Prometheus server is responsible for scraping and storing the data<br>
-Push gateway is used for short-lived jobs<br>
-Alert manager is responsible for alerts ;)
+O servidor Prometheus é responsável por raspar e armazenar os dados O
+gateway push é usado para trabalhos de curta duração O
+gerenciador de alertas é responsável pelos alertas;)
 </b></details>
 
 <details>
-<summary>What is an Instance? What is a Job?</summary><br><b>
+<summary>O que é uma Instância? O que é um Trabalho?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What core metrics types Prometheus supports?</summary><br><b>
+<summary>Quais tipos de métricas principais o Prometheus suporta?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What is an exporter? What is it used for?</summary><br><b>
+<summary>O que é um exportador? Para que isso é usado?</summary><br><b>
 </b></details>
 
 <details>
-<summary>Which Prometheus best practices are you familiar with?. Name at least three</summary><br><b>
+<summary>Com quais práticas recomendadas do Prometheus você está familiarizado?. Cite pelo menos três</summary><br><b>
 </b></details>
 
 <details>
-<summary>How to get total requests in a given period of time?</summary><br><b>
+<summary>Como obter o total de solicitações em um determinado período de tempo?</summary><br><b>
 </b></details>
 
 <details>
-<summary>What HA in Prometheus means?</summary><br><b>
+<summary>O que significa HA em Prometheus?</summary><br><b>
 </b></details>
 
 <details>
-<summary>How do you join two metrics?</summary><br><b>
+<summary>Como juntar duas métricas?</summary><br><b>
 </b></details>
 
 <details>
-<summary>How to write a query that returns the value of a label?</summary><br><b>
+<summary>Como escrever uma consulta que retorna o valor de um rótulo?</summary><br><b>
 </b></details>
 
 <details>
-<summary>How do you convert cpu_user_seconds to cpu usage in percentage?</summary><br><b>
+<summary>Como você converte cpu_user_seconds em uso de CPU em porcentagem?</summary><br><b>
 </b></details>
 
 ## Go
 
 <details>
-<summary>What are some characteristics of the Go programming language?</summary><br><b>
+<summary>Quais são algumas características da linguagem de programação Go?</summary><br><b>
 
-  * Strong and static typing - the type of the variables can't be changed over time and they have to be defined at compile time
-  * Simplicity
-  * Fast compile times
-  * Built-in concurrency
-  * Garbage collected
-  * Platform independent
-  * Compile to standalone binary - anything you need to run your app will be compiled into one binary. Very useful for version management in run-time.
+  * Tipagem forte e estática - o tipo das variáveis não pode ser alterado ao longo do tempo e elas devem ser definidas em tempo de compilação
+  * Simplicidade
+  * Tempos de compilação rápidos
+  * Simultaneidade incorporaday
+  * Lixo coletado
+  * Plataforma independente
+  * Compile para binário autônomo - tudo o que você precisa para executar seu aplicativo será compilado em um binário. Muito útil para gerenciamento de versões em tempo de execução.
 
-Go also has good community.
+Go também tem uma boa comunidade.
 </b></details>
 
 <details>
-<summary>What is the difference between <code>var x int = 2</code> and <code>x := 2</code>?</summary><br><b>
+<summary>Qual é a diferença entre <code>var x int = 2</code> and <code>x := 2</code>?</summary><br><b>
 
-The result is the same, a variable with the value 2.
+O resultado é o mesmo, uma variável com o valor 2.
 
-With <code>var x int = 2</code> we are setting the variable type to integer while with <code>x := 2</code> we are letting Go figure out by itself the type.
+Com <code>var x int = 2</code> estamos definindo o tipo de variável como inteiro enquanto com  <code>x := 2</code> estamos deixando Go descobrir por si mesmo o tipo.
 </b></details>
 
 <details>
-<summary>True or False? In Go we can redeclare variables and once declared we must use it.</summary>
+<summary>Verdadeiro ou falso? Em Go podemos redeclarar variáveis ​​e uma vez declaradas devemos usá-las.</summary>
 
-False. We can't redeclare variables but yes, we must used declared variables.
+Falso. Não podemos redeclarar variáveis, mas sim, devemos usar variáveis ​​declaradas.
 </b></details>
 
 <details>
-<summary>What libraries of Go have you used?</summary><br><b>
+<summary>Quais bibliotecas do Go você usou?</summary><br><b>
 
-This should be answered based on your usage but some examples are:
+Isso deve ser respondido com base no seu uso, mas alguns exemplos são:
 
-  * fmt - formatted I/O
+  * fmt - E/S formatada
 </b></details>
 
 <details>
-<summary>What is the problem with the following block of code? How to fix it?
+<summary>Qual é o problema com o seguinte bloco de código? Como corrigi-lo?
 
 ```
 func main() {
@@ -957,7 +945,7 @@ func main() {
 </b></details>
 
 <details>
-<summary>The following block of code tries to convert the integer 101 to a string but instead we get "e". Why is that? How to fix it?
+<summary>O bloco de código a seguir tenta converter o inteiro 101 em uma string, mas, em vez disso, obtemos "e". Por que é que? Como corrigi-lo?
 
 ```
 package main
@@ -973,12 +961,11 @@ func main() {
 ```
 </summary><br><b>
 
-It looks what unicode value is set at 101 and uses it for converting the integer to a string.
-If you want to get "101" you should use the package "strconv" and replace <code>y = string(x)</code> with <code>y = strconv.Itoa(x)</code>
+Ele verifica qual valor unicode está definido em 101 e o usa para converter o inteiro em uma string. Se você deseja obter "101", você deve usar o pacote "strconv" e substituir <code>y = string(x)</code> with <code>y = strconv.Itoa(x)</code>
 </b></details>
 
 <details>
-<summary>What is wrong with the following code?:
+<summary>O que há de errado com o código a seguir?:
 
 ```
 package main
@@ -991,14 +978,13 @@ func main() {
 ```
 </summary><br><b>
 
-Constants in Go can only be declared using constant expressions.
-But `x`, `y` and their sum is variable.
+Constantes em Go só podem ser declaradas usando expressões constantes. Mas `x`, `y` e sua soma é variável.
 <br>
 <code>const initializer x + y is not a constant</code>
 </b></details>
 
 <details>
-<summary>What will be the output of the following block of code?:
+<summary>Qual será a saída do seguinte bloco de código?:
 
 ```
 package main
@@ -1019,24 +1005,24 @@ func main() {
 ```
 </summary><br><b>
 
-Go's iota identifier is used in const declarations to simplify definitions of incrementing numbers. Because it can be used in expressions, it provides a generality beyond that of simple enumerations.
+O identificador iota de Go é usado em declarações const para simplificar as definições de números incrementais. Por poder ser usado em expressões, ele fornece uma generalidade além das enumerações simples.
 <br>
-`x` and `y` in the first iota group, `z` in the second.
+`x` and `y` o primeiro grupo iota `z` no segundo.
 <br>
-[Iota page in Go Wiki](https://github.com/golang/go/wiki/Iota)
+[Página Iota no Go Wiki ](https://github.com/golang/go/wiki/Iota)
 </b></details>
 
 <details>
-<summary>What _ is used for in Go?</summary><br><b>
+<summary>Para que _ é usado em Go?</summary><br><b>
 
-It avoids having to declare all the variables for the returns values.
-It is called the [blank identifier](https://golang.org/doc/effective_go.html#blank).
+Evita ter que declarar todas as variáveis ​​para os valores de retorno. É chamado de
+[ identificador em branco](https://golang.org/doc/effective_go.html#blank).
 <br>
-[answer in SO](https://stackoverflow.com/questions/27764421/what-is-underscore-comma-in-a-go-declaration#answer-27764432)
+[responda em SO](https://stackoverflow.com/questions/27764421/what-is-underscore-comma-in-a-go-declaration#answer-27764432)
 </b></details>
 
 <details>
-<summary>What will be the output of the following block of code?:
+<summary>Qual será a saída do seguinte bloco de código?:
 
 ```
 package main
@@ -1054,11 +1040,11 @@ func main() {
 ```
 </summary><br><b>
 
-Since the first iota is declared with the value `3` (` + 3`), the next one has the value `4`
+Como o primeiro iota é declarado com o valor`3` (` + 3`), o próximo tem o valor `4`
 </b></details>
 
 <details>
-<summary>What will be the output of the following block of code?:
+<summary>Qual será a saída do seguinte bloco de código?:
 
 ```
 package main
@@ -1091,13 +1077,13 @@ func main() {
 
 Output: 2 1 3
 
-[Aritcle about sync/waitgroup](https://tutorialedge.net/golang/go-waitgroup-tutorial/)
+[Artigo sobre sincronização/grupo de espera](https://tutorialedge.net/golang/go-waitgroup-tutorial/)
 
-[Golang package sync](https://golang.org/pkg/sync/)
+[Sincronização de pacotes Golang](https://golang.org/pkg/sync/)
 </b></details>
 
 <details>
-<summary>What will be the output of the following block of code?:
+<summary>Qual será a saída do seguinte bloco de código?:
 
 ```
 package main
@@ -1143,10 +1129,9 @@ Output: <code><br>
 2 [1 2 3 4]<br>
 </code>
 
-In `mod1` a is link, and when we're using `a[i]`, we're changing `s1` value to.
-But in `mod2`, `append` creats new slice, and we're changing only `a` value, not `s2`.
+Em `mod1` um link is, e quando estamos usando `a[i]`, estamos alterando `s1` o valor para. Mas em `mod2`, `append` cria uma nova fatia, e estamos alterando apenas o `a` valor, não o `s2`.
 
-[Aritcle about arrays](https://golangbot.com/arrays-and-slices/),
+[Artigo sobre arrays (https://golangbot.com/arrays-and-slices/),
 [Blog post about `append`](https://blog.golang.org/slices)
 </b></details>
 
