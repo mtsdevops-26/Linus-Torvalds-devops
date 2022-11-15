@@ -1,5 +1,15 @@
 <p align="center"><img src="images/devops.png"/></p>
 
+Rápida descrição do objetivo de fazer esse projeto
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **DevOps**
+| :label: Tecnologias | 
+| :rocket: URL         | 
+| :fire: Desafio     | 
+
+
 :information_source: &nbsp;Este repositório contém perguntas e exercícios sobre vários tópicos técnicos, às vezes relacionados a DevOps e SRE
 
 :bar_chart: &nbsp;Existem atualmente 2610 exercícios e perguntas.
